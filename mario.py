@@ -1,5 +1,5 @@
 def main():
-    print_square(int(input()))
+    print_square(int(input("put in a number")))
    
 
 
