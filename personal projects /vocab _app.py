@@ -18,12 +18,14 @@ vocab = {
 #make the terminal ask questions and then add a library and make it graphical 
 
 #shuffle the words randomly 
+words = list(vocab.keys())
+random.shuffle(words)
 
 correct = 0
 attempts =0
 # print each word one by one 
 print("give me the answer in spanish")
-for key in vocab.keys():
+for key in words:
     user = input(f"{key}: ")
 
     if user == vocab[key]:
