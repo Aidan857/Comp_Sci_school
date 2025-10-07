@@ -34,10 +34,18 @@ for key in words:
     
     else:
         print ("incorrect")
+        user = input(f"{key}: ")
+        attempts += 1
 
+        
 
+       
 
     attempts += 1
-    print(f"attempts: {attempts}")
+    print(f"attempts:{attempts}")
+
+
+
+    
         
  
